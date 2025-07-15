@@ -18,8 +18,8 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import About from './About';
 import Home from './Home';
-- import Aboutpart1 from './AboutPart1';
-- import Aboutpart2 from './Aboutpart2';
+ import Aboutpart1 from './AboutPart1';
+ import Aboutpart2 from './Aboutpart2';
 import Pricingplans from './Pricingplans';
 import Contactus from './Contactus';
 
