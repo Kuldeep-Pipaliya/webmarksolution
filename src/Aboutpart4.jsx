@@ -32,11 +32,11 @@ const Aboutpart4 = () => {
     setCurrent((current - 1 + slides.length) % slides.length);
   };
 
-   useEffect(() => {
-  const interval = setInterval(nextSlide, 4000); // 4 seconds
+  useEffect(() => {
+  const interval = setInterval(nextSlide, 4000);
+  return () => clearInterval(interval);
+}, [nextSlide]); // ✅ Add nextSlide as a dependency
 
-  return () => clearInterval(interval); // Cleanup before next effect call
-}, []);
 
 
   return (

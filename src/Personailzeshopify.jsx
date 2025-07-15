@@ -42,7 +42,7 @@ const Personailzeshopify = () => {
             Our powerful segmentation logic and filters help you use relevant and
             timely communication to target the customers most likely to purchase.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore segmentation <span>&rarr;</span>
           </a>
         </div>
