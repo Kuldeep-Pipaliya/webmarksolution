@@ -13,7 +13,7 @@ const Personalizesection = () => {
             Mailchimp’s automations help you engage your audience at the right
             time, with the right message, and without any manual intervention.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore automations <span className="arrow">→</span>
           </a>
         </div>
