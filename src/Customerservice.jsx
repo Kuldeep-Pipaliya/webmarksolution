@@ -9,7 +9,7 @@ const Customerservice = () => {
       <p className="subheading">
         Our customer service team is always available and ready to support you if you ever need help.
       </p>
-      <a href="#" className="support-link">
+      <a href="/" className="support-link">
         See our support offerings <span className="arrow">➜</span>
       </a>
     </div>

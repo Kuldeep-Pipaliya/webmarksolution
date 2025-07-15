@@ -55,12 +55,12 @@ const ContactUs = () => {
             <input type="url" placeholder="Website URL*" />
           </div>
          
-
           <p className="privacy-text">
-            We’re committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our <a href="#">Privacy Policy</a>.
+            We’re committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our{' '}
+            <a href="/privacy-policy">Privacy Policy</a>.
           </p>
 
-          <button className="next-btn">Next</button>
+          <button type="submit" className="next-btn">Next</button>
         </form>
       </div>
     </div>
