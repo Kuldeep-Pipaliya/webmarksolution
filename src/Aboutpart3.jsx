@@ -14,12 +14,12 @@ const Aboutpart3 = () => {
         <div className="stat-card">
           <img src="./img/about3-2.svg" alt="Employees" />
           <h3>8,500+ Employees</h3>
-          <a href="//Home.jsx">Learn more</a>
+          <a href="/Home.jsx">Learn more</a>
         </div>
         <div className="stat-card">
           <img src="./img/about3-3.svg" alt="Customers" />
           <h3>258,000 Customers</h3>
-          <a href="//Home.jsx">Learn more</a>
+          <a href="/Home.jsx">Learn more</a>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const Aboutpart3 = () => {
         <img src="./img/about3-4.png" alt="Awards" />
         <div className="awards-text">
           <h3>Voted #1 in 571 Reports</h3>
-          <a href="//Home.jsx">Learn more</a>
+          <a href="/Home.jsx">Learn more</a>
         </div>
       </div>
     </div>
