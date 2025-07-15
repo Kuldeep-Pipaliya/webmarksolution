@@ -11,7 +11,6 @@ const Aboutpart1 = () => {
       </div>
       <img 
         src="./img/about1.jpg" 
-        alt="Team Photo"
         className="about-image"
       />
     </div>
