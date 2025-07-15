@@ -39,7 +39,7 @@ const Aboutpart4 = () => {
   const interval = setInterval(nextSlide, 4000); // 4 seconds
 
   return () => clearInterval(interval); // Cleanup before next effect call
-}, [current]);
+}, [nextSlide]);
 
 
   return (
