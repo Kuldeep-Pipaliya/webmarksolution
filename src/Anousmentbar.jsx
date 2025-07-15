@@ -23,7 +23,7 @@ const Anousmentbar = () => {
       {/* Promo Banner */}
       <div className="promo-banner">
         <span className="promo-text">Save 50% for 12 months</span>x`x`– limited time offer.{" "}
-        <a href="#" className="promo-link">Get started today.</a>
+        <a href="/Home.jsx" className="promo-link">Get started today.</a>
       </div>
     </div>
   );

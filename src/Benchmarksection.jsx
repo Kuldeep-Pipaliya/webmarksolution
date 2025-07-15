@@ -17,7 +17,7 @@ const Benchmarksection = () => {
             Make Mailchimp your single source of truth for marketing ctivities.
             We offer 300+ integrations so you have everything you need in a single location.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore 300+ Integrations <span>&rarr;</span>
           </a>
         </div>
@@ -29,7 +29,7 @@ const Benchmarksection = () => {
             See what's working and make informed decisions with an omni-<br/>channel
             dashboard, audience analytics, testing, and more.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore Reporting and Analytics <span>&rarr;</span>
           </a>
         </div>
