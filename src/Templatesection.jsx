@@ -29,7 +29,7 @@ const Templatesection = () => {
             Choose a template that fits your industry and unique business goals to
             <br />see the difference a great layout can make.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/home" className="explore-link">
             Explore templates <span>&rarr;</span>
           </a>
         </div>

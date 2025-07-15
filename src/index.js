@@ -18,8 +18,8 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import About from './About';
 import Home from './Home';
-import Aboutpart1 from './AboutPart1';
-import Aboutpart2 from './Aboutpart2';
+- import Aboutpart1 from './AboutPart1';
+- import Aboutpart2 from './Aboutpart2';
 import Pricingplans from './Pricingplans';
 import Contactus from './Contactus';
 
@@ -46,7 +46,7 @@ import Contactus from './Contactus';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-   <Anousmentbar/>
+    <Anousmentbar />
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -54,6 +54,6 @@ root.render(
       <Route path="/Pricingplans" element={<Pricingplans />} />
       <Route path="/Contactus" element={<Contactus />} />
     </Routes>
-  <Footer/>
+    <Footer />
   </BrowserRouter>
 );
