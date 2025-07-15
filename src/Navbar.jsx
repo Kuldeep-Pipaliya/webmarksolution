@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// Remove unused imports if not used
-import { ChevronDown, Globe, Search } from 'lucide-react';
 import { Menu, X } from 'lucide-react';
 
 
