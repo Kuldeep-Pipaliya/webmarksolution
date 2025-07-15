@@ -2403,7 +2403,7 @@ ul {
   padding: 0;
 }
 
-ul li::before {
+.features-title ul li::before {
   content: '✓ ';
   color: #00a86b;
 }
