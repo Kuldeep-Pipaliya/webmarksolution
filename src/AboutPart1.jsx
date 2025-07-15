@@ -10,7 +10,7 @@ const Aboutpart1 = () => {
         </p>
       </div>
       <img 
-        src="./img/about1.jpg" 
+        src="./img/about1.jpg" alt=""
         className="about-image"
       />
     </div>
