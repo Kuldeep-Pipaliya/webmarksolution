@@ -1683,6 +1683,62 @@
     font-size: 13px;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .footer-links-section {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links-section h3 {
+        font-size: 15px;
+    }
+
+    .footer-brand-section h2 {
+        font-size: 20px;
+    }
+
+    .footer-brand-section p {
+        font-size: 13px;
+    }
+
+    .footer-logo-img {
+        width: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-links-section {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links-section h3 {
+        font-size: 14px;
+    }
+
+    .footer-links-section li {
+        font-size: 13px;
+    }
+
+    .footer-brand-section h2 {
+        font-size: 18px;
+    }
+
+    .footer-brand-section p {
+        font-size: 12px;
+    }
+
+    .footer-logo-img {
+        width: 80px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
 
 /* -------------------------------------------------------------navbar-------------------------------------------------------- */
 
