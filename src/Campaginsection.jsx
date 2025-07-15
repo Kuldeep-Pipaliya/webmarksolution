@@ -31,7 +31,7 @@ const Campaginsection = () => {
             body copy. It can even create fully built emails—all you need to do is
             review, edit, and publish.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore generative AI <span>&rarr;</span>
           </a>
         </div>

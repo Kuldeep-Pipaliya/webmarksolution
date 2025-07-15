@@ -6,21 +6,18 @@ const slides = [
     title: 'HubSpot Diversity, Inclusion & Belonging',
     description: 'Explore our latest Diversity, Inclusion, and Belonging Report to learn about the work we’ve done this year to build a more equitable company that reflects the diversity of our customers.',
     buttonText: 'Read the report',
-    link: '#'
   },
   {
     image: './img/aboutpart4-2.webp',
     title: 'Supporting Global Communities',
     description: 'Discover how we engage with global communities to foster inclusive growth and opportunities for all.',
     buttonText: 'Learn more',
-    link: '#'
   },
   {
     image: './img/aboutpart4-3.webp',
     title: 'Innovating for the Future',
     description: 'See how HubSpot is driving innovation to create better solutions for businesses worldwide.',
     buttonText: 'Explore innovations',
-    link: '#'
   }
 ];
 

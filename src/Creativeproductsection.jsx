@@ -51,7 +51,7 @@ const CreativeProductSection = () => {
             Our AI-powered design tools help engage audiences across touchpoints
             with professional logos and other assets via your imported brand kit.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore Creative Assistant &rarr;
           </a>
         </div>
@@ -80,7 +80,7 @@ const CreativeProductSection = () => {
             emails with dynamic product recommendations based on your customer
             interactions.
           </p>
-          <a href="#" className="explore-link">
+          <a href="/" className="explore-link">
             Explore dynamic product recommendations &rarr;
           </a>
         </div>
