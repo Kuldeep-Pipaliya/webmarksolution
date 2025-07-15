@@ -2403,10 +2403,10 @@ ul {
   padding: 0;
 }
 
-.features-title ul li::before {
+/* ul li::before {
   content: '✓ ';
   color: #00a86b;
-}
+} */
 
 .cta-button {
   width: 100%;
