@@ -10,7 +10,14 @@ const Footer = () => {
                 <p>Empowering your brand with tailored digital strategies that drive recognition, engagement, and lasting growth in the competitive market landscape.</p>
 
                 <div className="footer-social-icons">
-                    <Instagram size={20} />
+                    <a
+                        href="https://www.instagram.com/webmark_solutions_"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="instaicon"
+                    >
+                        <Instagram size={20} />
+                    </a>
                     <Facebook size={20} />
                     <Linkedin size={20} />
                 </div>
@@ -39,8 +46,8 @@ const Footer = () => {
                 <div>
                     <h3>CONTACT INFO</h3>
                     <ul>
-                        <li><Phone size={16} /> +91 7573806834</li>
-                        <li><Mail size={16} /> help.srsarees@gmail.com</li>
+                        <li><Phone size={16} /> +91 9081264882</li>
+                        <li><Mail size={16} /> hello.webmarksolutions@gmail.com</li>
                         <li><MapPin size={16} /> Adajan Surat, Gujarat</li>
                     </ul>
                 </div>

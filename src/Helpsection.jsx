@@ -5,14 +5,21 @@ const Helpsection = () => {
     <section className="help-section">
       <div className="help-text">
         <h2>
-          Need to hire a helping hand? <br />
+            Need expert help with your business? <br />
           <span className="bold">We got you.</span>
         </h2>
         <p>
-          From a quick template design to full-service campaign management, our global
-          community of 850+ trusted experts does it all.
+         Whether you need a complete Shopify website or high-performing Meta ad campaigns, our team is ready to handle it end-to-end — design, strategy, execution, and support.
         </p>
-        <button className="help-btn">Explore Mailchimp Experts</button>
+    
+         <a
+          href="https://wa.me/919081264882?text=Hi, I'm interested in website or marketing support."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="help-btn"
+        >
+          Talk to Our Team on WhatsApp
+        </a>
       </div>
       <div className="help-image">
         <img src='./img/help.avif' alt="Support agent" />

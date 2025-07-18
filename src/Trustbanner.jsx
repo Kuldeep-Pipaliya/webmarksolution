@@ -5,10 +5,17 @@ const Trustbanner = () => {
   return (
     <div className="banner">
       <h1>
-        Millions of users trust us with their email marketing. <br />
-        You can too.
+       Trusted by growing brands for Shopify websites <br />
+        and result-driven Meta marketing.
       </h1>
-      <button className="get-started-btn">Get started</button>
+       <a
+        href="https://wa.me/919081264882?text=Hi, I'm interested in your website or marketing services."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="get-started-btn"
+      >
+        Get Started 
+      </a>
     </div>
   );
 };

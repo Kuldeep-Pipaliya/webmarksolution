@@ -2,29 +2,29 @@ import React, { useState } from 'react';
 
 const faqData = [
   {
-    question: 'What is email marketing software?',
-    answer: 'Email marketing software helps businesses send emails to customers efficiently and track performance.',
+    question: 'Do you provide complete Shopify website setup?',
+    answer: 'Yes, we build mobile-friendly Shopify websites with theme suggestions, product uploads, and custom creative designs.',
   },
   {
-    question: 'What does an email marketing platform do?',
-    answer: 'It automates sending, manages contact lists, tracks analytics, and helps design campaigns.',
+    question: 'What kind of marketing do you offer?',
+    answer: 'We offer performance-driven marketing on Facebook and Instagram using Meta Ads, including ad creatives, targeting setup, and reporting.',
   },
   {
-    question: 'How effective is email marketing?',
-    answer: 'When done correctly, email marketing has one of the highest ROI among digital channels.',
+    question: 'How quickly can the website be delivered?',
+    answer: 'We deliver fully functional Shopify websites within 4–5 working days after receiving your content and requirements.',
   },
   {
-    question: 'What are the four types of email marketing campaigns?',
-    answer: 'Newsletters, transactional emails, behavioral emails, and promotional campaigns.',
+    question: 'Will you provide creatives for marketing?',
+    answer: 'Yes, we provide ad banners, product graphics, videos, and content tailored for your target audience and brand style.',
   },
   {
-    question: 'How can I optimize email marketing campaigns?',
-    answer: 'Use A/B testing, personalize content, segment your audience, and track key metrics.',
+    question: 'Do I need technical knowledge to get started?',
+    answer: 'No. We handle everything — from setup to launch — so you can focus on your business while we manage the rest.',
   },
   {
-    question: 'How can I start email marketing?',
-    answer: 'Choose a platform, build a list, design your emails, and start with a small campaign.',
-  },
+    question: 'How do I get support if I need help?',
+    answer: 'You can contact our support team anytime via WhatsApp for quick assistance with your website or ads.'
+  }
 ];
 
 const FAQaccordion = () => {

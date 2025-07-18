@@ -1455,6 +1455,8 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
+  color: #000;
 }
 
 .help-btn:hover {
@@ -1567,6 +1569,8 @@
   cursor: pointer;
   border-radius: 25px;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #000;
 }
 
 .get-started-btn:hover {
@@ -1671,6 +1675,10 @@
     gap: 8px;
     cursor: pointer;
     transition: color 0.3s, transform 0.3s;
+}
+
+.instaicon{
+  color: white;
 }
 
 .footer-links-section li:hover {
