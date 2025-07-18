@@ -2,66 +2,74 @@ import React from 'react';
 
 const plans = [
   {
-    label: '₹20/month for first 3 months',
-    title: 'Basic',
-    subtitle: 'For solo entrepreneurs',
-    price: '₹1,994',
-    frequency: 'INR /month',
-    tag: 'Most Popular',
-    cardRate: '2% 3rd-party payment providers',
+    label: 'One-time Charge',
+    title: 'Website Package',
+    subtitle: 'Perfect for small businesses & startups',
+    price: '₹4,000',
+    frequency: 'One-time payment',
+    tag: 'Best Value',
+    cardRate: 'Includes 30 product listings',
     features: [
-      '10 inventory locations',
-      '24/7 chat support',
-      'In-person selling by phone or POS device'
+      'Free website theme suggestions',
+      'Custom creative design by our team',
+      'Mobile-friendly and responsive design',
+      'Lifetime ownership of your website',
+      'Basic SEO setup included',
+      'WhatsApp & social media integration',
+      'Fast Making in 4-5 working days'
     ],
-    buttonText: 'Try for free',
+    buttonText: 'Contact Us',
     highlight: true
   },
+
   {
-    label: '₹20/month for first 3 months',
-    title: 'Grow',
-    subtitle: 'For small teams',
-    price: '₹7,447',
-    frequency: 'INR /month',
-    cardRate: '1% 3rd-party payment providers',
+    label: '₹7,000/month',
+    title: 'Marketing Plan',
+    subtitle: 'Grow your brand with Meta Ads',
+    price: '₹7,000',
+    frequency: 'Per month',
+    cardRate: 'Complete ad management with no hidden costs',
     features: [
-      '10 inventory locations',
-      '24/7 chat support',
-      
-      'In-person selling by phone or POS device'
+      'Meta Ads: Facebook & Instagram campaigns',
+      'Campaign strategy + ad creation',
+      'Custom creatives, banners & videos',
+      'Product positioning & growth strategy',
+      'Weekly performance review & suggestions'
     ],
-    buttonText: 'Try for free'
+    buttonText: 'Contact for Marketing'
   },
+
   {
-    label: '₹20/month for first 3 months',
-    title: 'Advanced',
-    subtitle: 'As your business scales',
-    price: '₹30,164',
-    frequency: 'INR /month',
-    cardRate: '0.6% 3rd-party payment providers',
+    label: '₹10,000 Combo Plan',
+    title: 'Website + Marketing',
+    subtitle: 'All-in-one business launch pack',
+    price: '₹10,000',
+    frequency: 'One-time + Monthly setup',
+    cardRate: 'Shopify website + Meta marketing in one pack',
     features: [
-      '10 inventory locations',
-      'Enhanced 24/7 chat support',
-    
-      'In-person selling by phone or POS device'
+      'Custom Shopify website with theme & setup',
+      '30 product listings + responsive design',
+      'Facebook & Instagram ad campaigns',
+      'Creative design: banners, videos, product ads'
     ],
-    buttonText: 'Try for free'
-  },
-  {
-    label: 'Available on a 1- or 3-year term',
-    title: 'Plus',
-    subtitle: 'For more complex businesses',
-    price: '₹1,75,000',
-    frequency: 'INR /month on a 3-year term',
-    features: [
-      '200 inventory locations',
-      'Priority 24/7 phone support',
-     
-     
-    ],
-    buttonText: 'Get started',
-    isPlus: true
+    buttonText: 'Get Started'
   }
+
+  // {
+  //   label: 'Available on a 1- or 3-year term',
+  //   title: 'Plus',
+  //   subtitle: 'For more complex businesses',
+  //   price: '₹1,75,000',
+  //   frequency: 'INR /month on a 3-year term',
+  //   features: [
+  //     '200 inventory locations',
+  //     'Priority 24/7 phone support',
+
+
+  //   ],
+  //   buttonText: 'Get started',
+  //   isPlus: true
+  // }
 ];
 
 const Pricingplans = () => {
@@ -81,7 +89,7 @@ const Pricingplans = () => {
             <p className="subtitle">{plan.subtitle}</p>
             <p className="price">{plan.price} <span>{plan.frequency}</span></p>
             <hr />
-            <p className="card-rate-title">Card rates starting at</p>
+            <p className="card-rate-title">Transparent pricing with no hidden fees't</p>
             <ul>
               <li>{plan.cardRate}</li>
             </ul>
@@ -91,7 +99,18 @@ const Pricingplans = () => {
                 <li key={idx}>{feature}</li>
               ))}
             </ul>
-            <button className="cta-button">{plan.buttonText}</button>
+            <button
+              className="cta-button"
+              onClick={() =>
+                window.open(
+                  `https://wa.me/919081264882?text=Hi, I'm interested in your ${plan.title} plan.`,
+                  '_blank'
+                )
+              }
+            >
+              {plan.buttonText}
+            </button>
+
             {plan.tag && <div className="tag">{plan.tag}</div>}
           </div>
         ))}

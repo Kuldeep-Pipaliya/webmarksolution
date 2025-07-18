@@ -4,15 +4,16 @@ const Aboutpart2 = () => {
   return (
     <div className="about-page">
       <section className="mission-section">
-        <img 
-          src="./img/aboutpart2.webp" 
-          alt="Grow Better" 
+        <img
+          src="./img/aboutpart2.webp"
+          alt="Grow Better"
           className="about-image"
         />
         <div className="mission-text">
-          <h2>Our Mission: Helping Millions of Organizations Grow Better</h2>
+          <h2>Our Mission: Helping Brands Grow Online</h2>
           <p>
-            We believe not just in growing bigger, but in growing better. And growing better means aligning the success of your own business with the success of your customers. Win-win!
+            Our goal is simple — empower small businesses and entrepreneurs to scale through smart, impactful digital marketing.
+            We craft strategies that don’t just look good but deliver real results across Meta platforms.
           </p>
         </div>
       </section>
@@ -21,15 +22,17 @@ const Aboutpart2 = () => {
         <div className="story-text">
           <h2>Our Story</h2>
           <p>
-            In 2004, fellow MIT graduate students Brian Halligan and Dharmesh Shah noticed a major shift in the way people shop and purchase products. Buyers didn’t want to be interrupted by ads, they wanted helpful information. In 2006, they founded HubSpot to help companies use that shift to grow better with inbound marketing.
+           What started as a small team passionate about digital creativity has now grown into a full-service marketing agency. 
+            We’ve helped hundreds of businesses increase visibility and drive sales through effective social media campaigns.
           </p>
           <p>
-            Along the way, HubSpot expanded beyond marketing into a crafted, not cobbled suite of products that create the frictionless customer experience that buyers expect today. Expertly led by CEO Yamini Rangan, HubSpot uses its customer platform built on an AI-powered Smart CRM to help millions of scaling organizations grow better.
+             From designing high-converting websites to launching ROI-driven Meta ads, we handle every part of your online growth journey. 
+            Our commitment is to build lasting relationships with our clients by delivering transparent, performance-based services.
           </p>
         </div>
-        <img 
-          src="./img/aboutpart22.webp" 
-          alt="Our Story" 
+        <img
+          src="./img/aboutpart22.webp"
+          alt="Our Story"
           className="about-image"
         />
       </section>

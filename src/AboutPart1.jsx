@@ -6,7 +6,8 @@ const Aboutpart1 = () => {
       <div className="about-text">
         <h1 className="about-title">About Us</h1>
         <p className="about-description">
-          HubSpot’s company and culture are a lot like our product. They’re crafted, not cobbled, for a delightful experience.
+           We help businesses grow online through creative marketing strategies and high-performing ad campaigns. 
+          From building brand identity to running result-driven social media ads, we craft solutions that connect you with your customers.
         </p>
       </div>
       <img 

@@ -5,29 +5,39 @@ const ContactUs = () => {
     <div>
       <div className="contact-container">
         <div className="contact-left">
-          <h1>Contact Us About <br /> HubSpot’s Software</h1>
+          <h1>Contact Us About <br /> Our Marketing Services</h1>
           <p>
-            We’d love to show you how you can get more traffic and leads, increase your sales productivity, 
-            provide better customer service, or all of the above! Here are a few ways to reach out to our sales team.
+            We'd love to help you grow your brand, reach your target audience, increase your conversions,
+            and take your business to the next level. Here are a few ways to get in touch with our marketing team.
           </p>
 
           <div className="contact-cards">
             <div className="contact-card">
               <div className="icon">📞</div>
               <h3>Call us directly</h3>
-              <p className="number">000800 050 3669</p>
+              <p className="number">+91 90812 64882</p>
             </div>
 
             <div className="contact-card">
               <div className="icon">💬</div>
-              <h3>Chat with our sales team</h3>
-              <button className="primary-btn">Chat with Sales</button>
+              <h3>Chat with our team</h3>
+              <button
+                className="primary-btn"
+                onClick={() => window.open('https://wa.me/919081264882', '_blank')}
+              >
+                Get in Touch
+              </button>
             </div>
 
             <div className="contact-card">
               <div className="icon">📅</div>
-              <h3>Get a product demo</h3>
-              <button className="primary-btn">Get a demo</button>
+              <h3>Request a consultation</h3>
+             <button
+                className="primary-btn"
+                onClick={() => window.open('https://wa.me/919081264882', '_blank')}
+              >
+                Get in Touch
+              </button>
             </div>
           </div>
         </div>
@@ -39,8 +49,8 @@ const ContactUs = () => {
 
       {/* FORM SECTION */}
       <div className="form-section">
-        <h2>Get a Demo</h2>
-        <p>Complete the form for a free demo of HubSpot’s software.</p>
+        <h2>Request a Consultation</h2>
+        <p>Fill out the form to speak with one of our marketing experts.</p>
         <form className="demo-form">
           <div className="form-row">
             <input type="text" placeholder="First Name*" />
@@ -54,9 +64,10 @@ const ContactUs = () => {
             <input type="text" placeholder="Company name*" />
             <input type="url" placeholder="Website URL*" />
           </div>
-         
+
           <p className="privacy-text">
-            We’re committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our{' '}
+            We’re committed to your privacy. We use the information you provide to contact you about our marketing services and offerings.
+            You may unsubscribe from these communications at any time. For more details, read our{' '}
             <a href="/privacy-policy">Privacy Policy</a>.
           </p>
 
