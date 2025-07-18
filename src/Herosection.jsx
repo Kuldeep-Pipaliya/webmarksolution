@@ -7,15 +7,22 @@ const Herosection = () => {
       <div className="hero-container">
         {/* Left Text Content */}
         <div className="hero-text">
-          <p className="hero-subtitle">Email Marketing Platform</p>
+          <p className="hero-subtitle">Website & Marketing Services</p>
           <h1 className="hero-title">
-            Convert more customers <br /> with a powerful and <br /> intuitive platform
+               Grow Your Business <br /> with Powerful Marketing <br /> and Smart Websites
           </h1>
           <p className="hero-description">
-            Create personalized emails, target precisely with behavior-based automations and segments,
-            and optimize with real-time reporting.
+             We create stunning Shopify websites and manage Meta (Facebook + Instagram) marketing campaigns 
+            that help you reach more customers and increase sales.
           </p>
-          <button className="hero-button">Get started</button>
+     <a
+            href="https://wa.me/919081264882?text=Hi, I’m interested in your website and marketing services."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-button"
+          >
+            Get Started
+          </a>
         </div>
 
         {/* Right Image */}
