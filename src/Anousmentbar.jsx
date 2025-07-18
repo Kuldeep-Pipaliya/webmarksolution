@@ -9,12 +9,18 @@ const Anousmentbar = () => {
           {/* <div className="logo"><img src="./img/logo.jpg" alt="" /></div> */}
           <div className="top-links">
             <div className="link-item">
-              <img src="https://cdn-icons-png.flaticon.com/512/873/873120.png" alt="QuickBooks" />
-              <span>quickbooks</span>
+            <img
+                src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+                alt="Shopify"
+              />
+              <span>Shopify Website</span>
             </div>
             <div className="link-item">
-              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="Mailchimp" />
-              <span>mailchimp</span>
+                <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+                alt="Meta Ads"
+              />
+              <span>Meta Marketing</span>
             </div>
           </div>
         </div>
@@ -22,8 +28,8 @@ const Anousmentbar = () => {
 
       {/* Promo Banner */}
       <div className="promo-banner">
-        <span className="promo-text">Save 50% for 12 months</span>x`x`– limited time offer.{" "}
-        <a href="/Home.jsx" className="promo-link">Get started today.</a>
+        <span className="promo-text">   Need a Shopify store or result-driven Facebook/Instagram ads?</span>{" "}
+        <a href="/Home.jsx" className="promo-link"> Let's discuss on WhatsApp →</a>
       </div>
     </div>
   );
