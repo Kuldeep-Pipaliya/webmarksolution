@@ -2,21 +2,21 @@ import React from "react";
 import './style.css';
 const Anousmentbar = () => {
   return (
-        <div>
+    <div>
       {/* Top White Strip */}
       <div className="top-strip">
         <div className="top-strip-inner">
           {/* <div className="logo"><img src="./img/logo.jpg" alt="" /></div> */}
           <div className="top-links">
             <div className="link-item">
-            <img
+              <img
                 src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
-                alt="Shopify"
+                alt="Shopify Logo"
               />
               <span>Shopify Website</span>
             </div>
             <div className="link-item">
-                <img
+              <img
                 src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
                 alt="Meta Ads"
               />
