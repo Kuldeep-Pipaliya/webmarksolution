@@ -20,19 +20,19 @@ const Campaginsection = () => {
   return (
     <section className="genai-section">
       <h2 className="genai-title">
-        Create effective marketing campaigns with <br />
-        ease using intuitive design tools
+        Run High-Performing Campaigns <br />
+        That Drive Sales & Brand Growth
       </h2>
       <div className="genai-container">
         <div className="genai-left">
-          <h3>Let AI help you write the first draft</h3>
+          <h3>Marketing That Connects</h3>
           <p>
-            Intuit Assist helps you quickly craft relevant content like headlines and
-            body copy. It can even create fully built emails—all you need to do is
-            review, edit, and publish.
+          We craft end-to-end Meta (Facebook & Instagram) campaigns for your products or brand.
+            From campaign strategy to ad creatives, videos, product mockups, and targeting – we handle everything 
+            to help you generate better ROI and customer engagement.
           </p>
           <a href="/" className="explore-link">
-            Explore generative AI <span>&rarr;</span>
+            Start a Campaign <span>&rarr;</span>
           </a>
         </div>
 
