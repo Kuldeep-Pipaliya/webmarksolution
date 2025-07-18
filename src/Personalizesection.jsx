@@ -3,18 +3,23 @@ import React from "react";
 const Personalizesection = () => {
   return (
     <section className="personalize-section">
-      <h2 className="section-title">Personalize your marketing at scale</h2>
+      <h2 className="section-title">Launch Your Shopify Website with Ease</h2>
 
       <div className="personalize-container">
         {/* Left Text */}
         <div className="personalize-left">
-          <h3>Reach more customers with less effort</h3>
+          <h3>We Build, You Grow</h3>
           <p>
-            Mailchimp’s automations help you engage your audience at the right
-            time, with the right message, and without any manual intervention.
+            Get your professional Shopify website built with theme setup, 30 product listings, and a mobile-friendly design.
+            We deliver everything — from layout to launch — so you can focus on growing your brand.
           </p>
-          <a href="/" className="explore-link">
-            Explore automations <span className="arrow">→</span>
+          <a
+            href="https://wa.me/919081264882?text=Hi, I'm interested in getting a Shopify website built."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-link"
+          >
+            Get Started on WhatsApp <span className="arrow">→</span>
           </a>
         </div>
 

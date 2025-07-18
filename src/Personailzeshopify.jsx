@@ -37,13 +37,18 @@ const Personailzeshopify = () => {
         </div>
 
         <div className="segment-right">
-          <h2>Generate ROI with advanced segmentation</h2>
+          <h2>Launch Your Shopify Store with D2C Strategy</h2>
           <p>
-            Our powerful segmentation logic and filters help you use relevant and
-            timely communication to target the customers most likely to purchase.
+             We help brands go direct-to-consumer with powerful Shopify websites and performance marketing. 
+            Get a fully designed store, product listings, and custom creatives that drive traffic and conversions.
           </p>
-          <a href="/" className="explore-link">
-            Explore segmentation <span>&rarr;</span>
+        <a
+            href="https://wa.me/919081264882?text=Hi, I’m interested in your Shopify website and D2C marketing service."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-link"
+          >
+            Start on WhatsApp <span>&rarr;</span>
           </a>
         </div>
       </div>
