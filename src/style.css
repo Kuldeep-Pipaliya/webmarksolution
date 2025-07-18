@@ -239,6 +239,7 @@
   .hero-image img {
     width: 100%;
     height: auto;
+    margin-right: 30px;
   }
 }
 
