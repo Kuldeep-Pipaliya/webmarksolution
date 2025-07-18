@@ -19,18 +19,22 @@ const Templatesection = () => {
   return (
     <section className="email-template-section">
       <h2 className="email-heading">
-        Create stunning emails faster by choosing from <br /> 130+ high-quality
-        templates
+      Choose From 130+ Website Layouts <br /> Designed to Convert
       </h2>
       <div className="email-content">
         <div className="email-left">
-          <h3>Pick and personalize the <br />design that’s just right</h3>
+        <h3>Pick a Shopify design that fits your brand</h3>
           <p>
-            Choose a template that fits your industry and unique business goals to
-            <br />see the difference a great layout can make.
+              We help you select the right theme, customize it to match your style, 
+            and launch your store with clean, mobile-ready design that engages customers from day one.
           </p>
-          <a href="/home" className="explore-link">
-            Explore templates <span>&rarr;</span>
+           <a
+            href="https://wa.me/919081264882?text=Hi, I'm interested in choosing a website layout and building my Shopify store."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-link"
+          >
+            View Layout Options <span>&rarr;</span>
           </a>
         </div>
 

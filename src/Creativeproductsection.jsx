@@ -46,13 +46,18 @@ const CreativeProductSection = () => {
         </div>
 
         <div className="text-content">
-          <h3>Create branded content at scale with Creative Assistant</h3>
+          <h3>Build a Professional Website with Brand Identity</h3>
           <p>
-            Our AI-powered design tools help engage audiences across touchpoints
-            with professional logos and other assets via your imported brand kit.
+            We create modern, mobile-friendly Shopify websites tailored to your brand.
+            Our team also provides creative banners, product mockups, and layout suggestions that match your market.
           </p>
-          <a href="/" className="explore-link">
-            Explore Creative Assistant &rarr;
+          <a
+            href="https://wa.me/919081264882?text=Hi, I'm interested in your website and branding service."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-link"
+          >
+            Start Website Project &rarr;
           </a>
         </div>
       </div>
@@ -74,14 +79,18 @@ const CreativeProductSection = () => {
         </div>
 
         <div className="text-content">
-          <h3>Drive sales with AI-powered product recommendations</h3>
+          <h3>Promote Your Best-Selling Products with Meta Ads</h3>
           <p>
-            Use preset feeds like best sellers or new arrivals to send personalized
-            emails with dynamic product recommendations based on your customer
-            interactions.
+           We run targeted Facebook and Instagram campaigns to boost your top products. 
+            Get performance-driven creatives, compelling ad copy, and complete campaign management — all in one place.
           </p>
-          <a href="/" className="explore-link">
-            Explore dynamic product recommendations &rarr;
+         <a
+            href="https://wa.me/919081264882?text=Hi, I'm interested in promoting my products with your Meta marketing service."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="explore-link"
+          >
+            Boost My Product &rarr;
           </a>
         </div>
       </div>
