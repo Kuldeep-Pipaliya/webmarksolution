@@ -33,6 +33,7 @@ const Anousmentbar = () => {
             href="https://wa.me/919081264882?text=Hi, I’m interested in your website and marketing services."
             target="_blank"
             rel="noopener noreferrer"
+            className="anumoumentwp"
           >
             Let's discuss on WhatsApp →
           </a>
