@@ -29,7 +29,14 @@ const Anousmentbar = () => {
       {/* Promo Banner */}
       <div className="promo-banner">
         <span className="promo-text">   Need a Shopify store or result-driven Facebook/Instagram ads?</span>{" "}
-        <a href="/Home.jsx" className="promo-link"> Let's discuss on WhatsApp →</a>
+      <a
+            href="https://wa.me/919081264882?text=Hi, I’m interested in your website and marketing services."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-button"
+          >
+            Let's discuss on WhatsApp →
+          </a>
       </div>
     </div>
   );
